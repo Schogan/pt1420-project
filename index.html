@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daniels Family</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/jquery.mobile-1.4.5.js"></script>
+    <script src="js/application.js"></script>
+  </head>
+  <body>
+        //Begin of Main Page
+    <div data-role="page" id="homepage">
+    <div data-role="header">
+        <h1>Daniels Family Website</h1>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#homepage">Home</a></li>
+                <li><a href="#secondpage">Second Page</a></li>
+            </ul>
+        </div>
+    </div>
+    <div data-role="main" class="ui-content">
+         <h1>This is my body</h1>
+         <a href="#secondpage">Go To Second Page</a>
+         <div data-role="sidebar">
+            <ul>
+                <li><a href="#homepage">Home</a></li>
+                <li><a href="#secondpage">Second Page</a></li>
+            </ul>
+        </div>
+    </div>
+    <div data-role="footer">
+        <h1>This is my footer</h1>
+    </div>
+    </div>
+        //End of Main Page
+        // second page begin
+        <div data-role="page" id="secondpage">
+    <div data-role="header">
+        <h1>Second Page</h1>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#homepage">Home</a></li>
+                <li><a href="#secondpage">Second Page</a></li>
+            </ul>
+        </div>
+    </div>
+    <div data-role="main" class="ui-content">
+         <h1>This is my body</h1>
+         <a href="#homepage">Go To Main Page</a>
+    </div>
+    <div data-role="footer">
+        <h1>This is my footer</h1>
+    </div>
+    </div>
+        //End of second page
+  </body>
+</html>
